@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Heebo&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+    <title>Georgian Phonics</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <h1>Which letters do you want to practice?</h1>
+
+        <div id="checkboxes" class="checkboxes"></div>
+
+        <div class="button-box">
+            <img id="thumbsUp" src="img/iconfinder_thumbs-o-up_1608724.svg" alt="thumbs up, correct answer" />
+            <button type="button" class="playButton" id="playButton" value="playButton"
+                onclick='handlePlayButtonClick()'>
+                <label for="playButton">Play</button>
+            <img id="thumbsDown" src="img/iconfinder_thumbs-o-down_1608725.svg" alt="thumbs down, try again" />
+        </div>
+
+        <h2>What do you hear?</h2>
+
+        <div id="answers" class="answers"></div>
+
+    </div>
+    <script src="javascript/main.js"></script>
+    <!-- <script src='javascript/audio.js'></script> -->
+</body>
+
+</html>
